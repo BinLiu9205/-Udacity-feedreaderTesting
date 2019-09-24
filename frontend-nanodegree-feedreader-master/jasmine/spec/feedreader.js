@@ -36,7 +36,7 @@ $(function() {
 				 let currentURL = feed.url;
 				 expect(currentURL).toBeDefined();
 				 expect(currentURL).not.toBe('');
-				 expect(currentURL).toContain('https');
+				 expect(currentURL).toContain('http');
 			 });
 		 });
 
